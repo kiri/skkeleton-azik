@@ -33,6 +33,7 @@ call skkeleton#register_kanatable('rom',{
   \ '<s-l>': 'zenkaku',
   \ 'l':     'disable',
   \ '/':     'abbrev',
+  \ '<c-g>': 'cancel',
   \ })
 
 call skkeleton#register_kanatable('rom',{
