@@ -32,7 +32,7 @@ call skkeleton#register_kanatable('rom',{
   \ '<c-l>': 'disable',
   \ '<s-l>': 'zenkaku',
   \ '<s-q>': 'katakana',
-  \ '<s-g>': 'deleteChar',
+  \ '<c-d>': 'deleteChar',
   \ })
 
 call skkeleton#register_kanatable('rom',{
