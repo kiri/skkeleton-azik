@@ -28,11 +28,11 @@
 " }}}
 
 call skkeleton#register_kanatable('rom',{
-  \ 'l': 'disable',
-  \ '<c-l>': 'disable',
+  \ '@':     'katakana',
+  \ '<c-q>': 'hankatakana',
   \ '<s-l>': 'zenkaku',
-  \ '<s-q>': 'katakana',
-  \ '<c-d>': 'deleteChar',
+  \ 'l':     'disable',
+  \ '/':     'abbrev',
   \ })
 
 call skkeleton#register_kanatable('rom',{
