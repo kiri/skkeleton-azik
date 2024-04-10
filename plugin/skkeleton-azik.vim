@@ -34,6 +34,8 @@ call skkeleton#register_kanatable('rom',{
   \ 'l':     'disable',
   \ '/':     'abbrev',
   \ '<c-g>': 'cancel',
+  \ '<Space>': 'henkanForward',
+  \ '<S-Space>': 'henkanBackward',
   \ })
 
 call skkeleton#register_kanatable('rom',{
