@@ -795,6 +795,7 @@ call skkeleton#register_kanatable('rom',{
 call skkeleton#register_kanatable('rom',{
   \ 'kt':    ['こと', ''],
   \ 'st':    ['した', ''],
+  \ 'tt':    ['たち', ''],
   \ 'ht':    ['ひと', ''],
   \ 'wt':    ['わた', ''],
   \ 'mn':    ['もの', ''],
@@ -820,10 +821,6 @@ call skkeleton#register_kanatable('rom',{
   \ 'dt':    ['だち', ''],
   \ 'wr':    ['われ', ''],
   \ })
-
-" call skkeleton#register_kanatable('rom',{
-"  \ 'tt':    ['たち', ''],
-" \ })
 
 " call skkeleton#register_kanatable('rom',{
 "   \ '0':     ['0', ''],
